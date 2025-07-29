@@ -11,14 +11,14 @@ export default defineConfig({
 
 	head: [
 		['link', { rel: 'icon', sizes: 'any', href: '/favicon.ico' }],
-		['link', { rel: 'icon', type: 'image/svg+xml', sizes: '16x16', href: '/logo.svg' }],
+		['link', { rel: 'icon', type: 'image/svg+xml', sizes: '16x16', href: '/logo.png' }],
 		['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
 		['link', { rel: 'manifest', href: '/site.webmanifest' }],
 		['meta', { name: 'theme-color', content: '#b7236a' }],
 	],
 
 	themeConfig: {
-		logo: '/logo.svg',
+		logo: '/logo.png',
 
 		nav: nav(),
 

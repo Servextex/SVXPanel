@@ -1,6 +1,6 @@
 <div class="login">
 	<a href="/" class="u-block u-mb40">
-		<img src="/images/logo.svg" alt="<?= htmlentities($_SESSION["APP_NAME"]) ?>" width="100" height="120">
+		<img src="/images/logo.png" alt="<?= htmlentities($_SESSION["APP_NAME"]) ?>" width="100" height="100">
 	</a>
 	<form method="get" action="/reset/">
 		<h1 class="login-title">
